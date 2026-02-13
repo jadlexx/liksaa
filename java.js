@@ -22,5 +22,6 @@ onload = () => {
       sessionStorage.setItem('musicPlaying', 'true');
       sessionStorage.setItem('musicTime', bgMusic.currentTime);
     }
-    window.location.href = '../main.html';
+    window.location.href = '../index.html';
+
   };
